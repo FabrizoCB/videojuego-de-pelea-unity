@@ -29,6 +29,6 @@ public class PlayerHealth : MonoBehaviour
     void GameOver()
     {
         Debug.Log("Game Over");
-        UnityEngine.SceneManagement.SceneManager.LoadScene("GameOverScene");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("GameOver");
     }
 }
